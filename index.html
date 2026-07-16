@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+<div class="wrap">
+  <h1>BRAINROT<br>CHARACTER FORGE</h1>
+  <div class="sub">pick your ingredients, or let chaos decide.</div>
+
+  <div class="panel">
+    <h3>Build Specs</h3>
+    <div class="grid">
+      <div class="field">
+        <label>Creature Base</label>
+        <select id="animal">
+          <option value="random">Surprise me</option>
+          <option value="crocodile">Crocodile</option>
+          <option value="shark">Shark</option>
+          <option value="elephant">Elephant</option>
+          <option value="cat">Cat</option>
+          <option value="bird">Bird</option>
+          <option value="blob">Humanoid Blob</option>
+          <option value="frog">Frog</option>
+          <option value="gorilla">Gorilla</option>
+          <option value="octopus">Octopus</option>
+          <option value="pigeon">Pigeon</option>
+          <option value="snake">Snake</option>
+          <option value="cow">Cow</option>
+          <option value="trex">T-Rex</option>
+          <option value="spider">Spider</option>
+          <option value="kangaroo">Kangaroo</option>
+          <option value="worm">Giant Worm</option>
+          <option value="bat">Bat</option>
+          <option value="unicorn">Unicorn</option>
+          <option value="zombie">Zombie</option>
+          <option value="ghost">Ghost</option>
+          <option value="robot">Robot</option>
+          <option value="demon">Demon</option>
+          <option value="alien">Alien</option>
+          <option value="skeleton">Skeleton</option>
+          <option value="mummy">Mummy</option>
+          <option value="cyclops">Cyclops</option>
+          <option value="turtle">Turtle</option>
+          <option value="rabbit">Rabbit</option>
+          <option value="owl">Owl</option>
+          <option value="hippo">Hippo</option>
+          <option value="chicken">Chicken</option>
+          <option value="penguin">Penguin</option>
+          <option value="walrus">Walrus</option>
+          <option value="fox">Fox</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Head Object</label>
+        <select id="object">
+          <option value="random">Surprise me</option>
+          <option value="trumpet">Trumpet</option>
+          <option value="espresso">Espresso Machine</option>
+          <option value="bulb">Lightbulb</option>
+          <option value="coconut">Coconut</option>
+          <option value="tv">Old TV</option>
+          <option value="boombox">Boombox</option>
+          <option value="duck">Rubber Duck</option>
+          <option value="ball">Soccer Ball</option>
+          <option value="bell">Church Bell</option>
+          <option value="roll">Cinnamon Roll</option>
+          <option value="cone">Traffic Cone</option>
+          <option value="brush">Toilet Brush</option>
+          <option value="flipflop">Flip-Flop</option>
+          <option value="helmet">Helmet</option>
+          <option value="microwave">Microwave</option>
+          <option value="cactus">Cactus</option>
+          <option value="discoball">Disco Ball</option>
+          <option value="umbrella">Umbrella</option>
+          <option value="waffle">Waffle</option>
+          <option value="toilet">Toilet</option>
+          <option value="toaster">Toaster</option>
+          <option value="chainsaw">Chainsaw</option>
+          <option value="skull">Skull</option>
+          <option value="ufo">UFO</option>
+          <option value="washer">Washing Machine</option>
+          <option value="clock">Grandfather Clock</option>
+          <option value="pineapple">Pineapple</option>
+          <option value="atm">ATM Machine</option>
+          <option value="grenade">Grenade</option>
+          <option value="piano">Piano</option>
+          <option value="cake">Birthday Cake</option>
+          <option value="chandelier">Chandelier</option>
+          <option value="guitar">Guitar</option>
+          <option value="basketball">Basketball</option>
+          <option value="pizzaslice">Slice of Pizza</option>
+          <option value="trafficlight">Traffic Light</option>
+          <option value="boxingglove">Boxing Glove</option>
+          <option value="camera">Camera</option>
+          <option value="crown">Crown</option>
+          <option value="skateboard">Skateboard</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Vibe</label>
+        <select id="vibe">
+          <option value="random">Surprise me</option>
+          <option value="chaotic">Chaotic</option>
+          <option value="menacing">Menacing</option>
+          <option value="wholesome">Wholesome</option>
+          <option value="sleepy">Sleepy</option>
+          <option value="unhinged">Unhinged</option>
+          <option value="majestic">Majestic</option>
+          <option value="feral">Feral</option>
+          <option value="cursed">Cursed</option>
+          <option value="smug">Smug</option>
+          <option value="paranoid">Paranoid</option>
+          <option value="greedy">Greedy</option>
+          <option value="romantic">Romantic</option>
+          <option value="glitchy">Glitchy</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Color Palette</label>
+        <select id="palette">
+          <option value="random">Surprise me</option>
+          <option value="neon">Neon</option>
+          <option value="pastel">Pastel</option>
+          <option value="mono">Monochrome</option>
+          <option value="fire">Fire</option>
+          <option value="ocean">Ocean</option>
+          <option value="toxic">Toxic</option>
+          <option value="royal">Royal</option>
+          <option value="candy">Candy</option>
+          <option value="volcano">Volcano</option>
+          <option value="arctic">Arctic</option>
+          <option value="blood">Blood</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Habitat</label>
+        <select id="habitat">
+          <option value="random">Surprise me</option>
+          <option>Italian sewers</option>
+          <option>the deep fry aisle</option>
+          <option>abandoned skate parks</option>
+          <option>group chats at 3am</option>
+          <option>your little cousin's tablet</option>
+          <option>a haunted vending machine</option>
+          <option>school bathroom mirrors</option>
+          <option>the algorithm itself</option>
+          <option>grandma's WhatsApp</option>
+          <option>airport baggage claim</option>
+          <option>a Discord server nobody moderates</option>
+          <option>the comments section of a cooking video</option>
+          <option>a gas station bathroom at 2am</option>
+          <option>your FYP at 4am</option>
+          <option>a wedding DJ's Bluetooth speaker</option>
+          <option>the back of a school bus</option>
+          <option>a Wish.com package that took 3 months</option>
+          <option>the group project chat nobody responds to</option>
+          <option>your uncle's Facebook page</option>
+          <option>a Minecraft server from 2013</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>IQ (drag, or leave random)</label>
+        <div class="rangewrap">
+          <input type="range" id="iq" min="0" max="200" value="80">
+          <span id="iqval">80</span>
+        </div>
+        <label style="margin-top:4px;"><input type="checkbox" id="iqlock"> lock this value</label>
+      </div>
+      <div class="field full">
+        <label>Name seed (optional — leave blank for full nonsense)</label>
+        <input type="text" id="nameseed" placeholder="e.g. Tralalero">
+      </div>
+    </div>
+
+    <div class="aibox">
+      <label class="aitoggle">
+        <input type="checkbox" id="useAI">
+        <span>Write the lore with ChatGPT instead of the built-in templates</span>
+      </label>
+      <label class="aitoggle">
+        <input type="checkbox" id="useAIImage">
+        <span>Render an actual AI-generated image instead of the hand-drawn monster</span>
+      </label>
+      <div id="aikeyrow" class="field full" style="display:none; margin-top:8px;">
+        <label>OpenAI API key (optional — leave blank to use the key already configured on this site)</label>
+        <input type="password" id="openaiKey" placeholder="sk-... (optional)">
+        <div class="aihint">Get a key at platform.openai.com/api-keys. Text uses gpt-4o-mini · Images use gpt-image-1. Image generation costs a few cents per creature. If this site already has a key configured, you can leave this blank.</div>
+      </div>
+    </div>
+
+    <div class="btnrow">
+      <button class="btn-forge" onclick="forge(false)">🧠 FORGE CHARACTER</button>
+      <button class="btn-surprise" onclick="forge(true)">🎲 FULL SURPRISE</button>
+    </div>
+  </div>
+
+  <div class="card" id="card">
+    <div class="stage" id="stage"></div>
+    <div id="stageNote"></div>
+    <h2 class="name" id="name"></h2>
+    <div class="stats">
+      <div class="stat"><b>IQ</b><span id="iqOut"></span></div>
+      <div class="stat"><b>Rizz</b><span id="rizz"></span></div>
+      <div class="stat"><b>Habitat</b><span id="habitatOut"></span></div>
+      <div class="stat"><b>Vibe</b><span id="vibeOut"></span></div>
+    </div>
+    <div class="lore" id="lore"></div>
+    <span class="rarity" id="rarity"></span>
+  </div>
+
+  <footer>generated locally in your browser · every click is a new crime against language</footer>
+</div>
+    
+</body>
+</html>

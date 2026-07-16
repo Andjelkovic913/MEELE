@@ -1,0 +1,13 @@
+{
+  "name": "brainrot-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brainrot Character Forge — static frontend + a tiny proxy backend for the OpenAI calls",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
